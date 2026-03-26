@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "notion-docs-writer",
+  "description": "Notion 기반 문서 작성/업그레이드 파이프라인.",
+  "plugins": [
+    {
+      "name": "notion-docs-writer",
+      "description": "6단계 파이프라인으로 체계적인 문서를 Notion에 작성합니다.",
+      "version": "1.0.0",
+      "source": "./plugins/notion-docs-writer"
+    }
+  ]
+}
