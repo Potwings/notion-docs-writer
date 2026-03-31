@@ -79,7 +79,7 @@ Agent tool로 `draft-rewriter` 에이전트를 실행한다.
 | 3 | `research-verifier` (공용) | `STEP1_개요` + `STEP2_수집자료` | `STEP3_자료검증`: 항목별 판정 |
 | 4 | 판별된 유형의 composer | `STEP1_개요` + `STEP3_자료검증` | `STEP4_문서초안`: 완성 문서 |
 | 5 | `document-reviewer` (공용) | `STEP4_문서초안` | `STEP5_최종결과`: 최종 검토본 + 상위 페이지 교체 |
-| 6 | `work-planner` (공용) | `STEP5_최종결과` | `STEP6_업무계획`: 우선순위별 업무 계획 |
+| 6 | `work-planner` (공용) | `STEP5_최종결과` | `STEP6_업무계획`: 우선순위별 업무 계획 + 상위 페이지 최상단 TODO 목록 |
 
 ## 에러 처리
 
